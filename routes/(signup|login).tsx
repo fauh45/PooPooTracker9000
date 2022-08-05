@@ -16,6 +16,12 @@ const LoginSignupPage = (props: PageProps) => {
       <main>
         <h1>Welcome!</h1>
         <p>Please {authType} to the all mighty PooPoo Tracker 9000!</p>
+
+        <p>Sorry! Currently we're developing it, please check again later!</p>
+        <p>
+          Contact <a href="https://twitter.com/fauh45">fauh45</a> for more
+          information
+        </p>
       </main>
       <Footer />
     </Layout>
